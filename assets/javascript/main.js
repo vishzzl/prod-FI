@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const navbar = document.querySelector('.navbar');
     const logo = document.querySelector('.logo');
@@ -9,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navbar.classList.remove('scrolled');
         logo.classList.remove('scrolled');
       }
+      
     });
   });
   

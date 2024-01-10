@@ -7,9 +7,12 @@
   <link href="./assets/css/output.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
 </head>
 
-<body>
+<body id="pageBody">
+
   <div class="flex flex-col">
     <!-- Navbar -->
     <nav class="navbar flex justify-between items-center  py-5 px-8 text-white w-full fixed top-0 left-0 z-10">
@@ -22,41 +25,34 @@
           </h3>
         </a>
       </div>
-
       <!-- Links Section -->
       <div class="items-center hidden space-x-8 lg:flex">
         <a class="flex text-white font-bold hover:text-blue-500
-                    cursor-pointer transition-colors duration-300">
+                  cursor-pointer transition-colors duration-300">
           Home
         </a>
-
         <a class="flex text-white font-bold
-                    cursor-pointer transition-colors duration-300
-                    ">
+                  cursor-pointer transition-colors duration-300
+                  ">
           Themes
         </a>
-
         <a class="flex text-white font-bold hover:text-blue-500
-                    cursor-pointer transition-colors duration-300">
+                  cursor-pointer transition-colors duration-300">
           Developers
         </a>
-
         <a class="flex text-white font-bold hover:text-blue-500
-                    cursor-pointer transition-colors duration-300">
+                  cursor-pointer transition-colors duration-300">
           Pricing
         </a>
-
         <a class="flex text-white font-bold hover:text-blue-500
-                    cursor-pointer transition-colors duration-300">
+                  cursor-pointer transition-colors duration-300">
           Blog
         </a>
-
         <a class="flex text-white font-bold hover:text-blue-500
-                    cursor-pointer transition-colors duration-300">
+                  cursor-pointer transition-colors duration-300">
           About Us
         </a>
       </div>
-
       <!-- Icon Menu Section -->
       <div class="flex items-center space-x-5">
         <!-- Register -->
@@ -70,72 +66,71 @@
           Get in Touch
         </a>
 
-
-        <!-- Login -->
-
       </div>
     </nav>
   </div>
-
-
-
   <div class="relative">
-    <div class="sticky top-0 h-screen flex items-center justify-center bg-black text-white">
-      <div
+    <div class="sticky top-0 h-screen flex items-center justify-center bg-gradient-to-b from-white to-black text-white">
+      <div id="fiestaSection"
         class="absolute z-30 p-5 w-full h-full text-center text-2xl text-white bg-gray-800 bg-opacity-50 flex flex-col items-center justify-center">
         <div class="text-center">
           <h1
-            class="text-9xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-extrabold leading-tight mb-4 animate__animated animate__fadeIn">
-            FiestaInfinity</h1>
+            class="text-9xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-extrabold leading-tight mb-4 animate__animated animate__fadeInUp">
+            FiestaInfinity
+          </h1>
           <p class="text-2xl mb-8 animate__animated animate__fadeIn animate__delay-1s">Your Gateway to Unforgettable
-            Events</p>
+            Events
+          </p>
           <a href="#"
             class="bg-white text-indigo-700 px-6 py-2 rounded-full text-lg hover:bg-indigo-700 hover:text-white transition duration-300">Explore
             Now</a>
         </div>
         <!-- You can add more text or elements as needed -->
       </div>
-      <video autoplay muted loop class="absolute z-10  w-full h-full object-cover">
-        <source src="./assets/videos/Crowd.mp4" type="video/mp4" />
+      <video autoplay muted loop loading="lazy" class="absolute z-10  w-full h-full object-cover">
+        <source src="./assets/videos/White.mp4" type="video/mp4" />
       </video>
-
     </div>
 
-    <div
-      class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-600 to-indigo-800 text-white">
-      <h2 class="text-5xl font-extrabold mb-4 tracking-tight">Strategic HR Planning</h2>
-      <p class="text-lg mb-6 max-w-lg text-center">Navigate the future with precision. Our strategic HR planning aligns
-        your business goals, ensuring sustainable growth and success.</p>
-      <div class="border-t border-white pt-2">
-        <p class="text-sm opacity-50">Scroll Down</p>
+    <section class="relative bg-black text-white py-16">
+
+
+      <div class="container mx-auto  z-10 pt-8 pb-8 sticky">
+
+
+        <div class="lg:flex lg:justify-center ">
+          <!-- Text container -->
+          <div class="lg:w-1/2 mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-200 mb-6 text-left">Who We Are</h2>
+            <div class="parallax-text animate__animated animate__fadeIn animate__delay-1s text-left">
+              <p class="text-lg text-gray-200 mb-4">
+                We pride ourselves on being a leading event management company that excels in creating unforgettable
+                moments for our clients.
+              </p>
+              <p class="text-lg text-gray-200 mb-4">
+                Our team is dedicated to delivering exceptional experiences, whether it's a corporate event, mall
+                activation, or a music concert.
+              </p>
+              <p class="text-lg text-gray-200 mb-4">
+                With creativity, precision, and a passion for perfection, we ensure every event is a memorable success.
+              </p>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="lg:w-1/2 mt-8">
+            <img src="assets/images/pexels-picjumbocom-196652.jpg" alt="Event Image"
+              class="w-2/3 mx-auto h-auto rounded-lg shadow-lg">
+          </div>
+        </div>
+
       </div>
-    </div>
-
-    <div
-      class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-600 to-purple-800 text-white">
-      <h2 class="text-5xl font-extrabold mb-4 tracking-tight">Elevate Employee Engagement</h2>
-      <p class="text-lg mb-6 max-w-lg text-center">Foster a culture of collaboration and satisfaction. Our employee
-        engagement strategies boost productivity and workplace harmony.</p>
-      <div class="border-t border-white pt-2">
-        <p class="text-sm opacity-50">Scroll Down</p>
-      </div>
-    </div>
-
-    <div
-      class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-neutral-800 to-neutral-900 text-white">
-      <h2 class="text-5xl font-extrabold mb-4 tracking-tight">Tailored HR Solutions</h2>
-      <p class="text-lg mb-6 max-w-lg text-center">Your unique needs, our customized solutions. Explore innovative HR
-        strategies designed to propel your organization forward.</p>
-    </div>
+    </section>
   </div>
-
-
-
 
   <div>
     <section>
       <section class="sticky">
-
         <div class="max-w-lg px-4 sm:pt-24 pt-12 sm:pb-8 mx-auto text-left md:max-w-none md:text-center">
           <div class='text-center py-4 hidden sm:block'>
             <button
@@ -147,37 +142,27 @@
               &nbsp; &nbsp;<span> Follow on Twitter </span>
             </button>
           </div>
-
-
           <h1
             class="font-extrabold leading-10 tracking-tight text-center text-[#201515] sm:leading-none text-5xl sm:text-9xl">
             <span class="inline md:block">Building Good </span>
             <span class="relative mt-2 bg-clip-text text-[#201515] md:inline-block">Software.</span>
           </h1>
         </div>
-
-
         <div class="max-w-lg px-4 pb-24 mx-auto text-left md:max-w-none md:text-center">
           <div class='text-center py-4 space-x-4'>
-
             <button
               class="backdrop-blur-sm transition duration-500 ease-in-out bg-[#FF4F01] border border-[#E2E8F0] translate-y-1 text-white hover:bg-neutral-200 text-lg font-semibold py-3 px-6 rounded-3xl inline-flex items-center">
               <span> Build Your Custom App</span>
             </button>
-
             <button
               class="backdrop-blur-sm transition duration-500 ease-in-out bg-white border border-[#E2E8F0] translate-y-1 text-[#16161d] hover:bg-neutral-200 text-lg font-semibold py-3 px-6 rounded-3xl inline-flex items-center">
               <span> Explore Apps</span>
             </button>
           </div>
         </div>
-
       </section>
     </section>
-
-
     <div class="text-left">
-
       <div class='sm:px-28'>
         <section class="relative flex items-center w-full">
           <div class="relative items-center w-full px-5 mx-auto md:px-12 lg:px-16 max-w-7xl">
@@ -186,7 +171,6 @@
                 <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
                   <div class="max-w-xl text-center lg:text-left">
                     <div>
-
                       <p class="text-3xl font-semibold tracking-tight text-[#201515] sm:text-5xl">
                         Space Management Software
                       </p>
@@ -211,12 +195,8 @@
             </div>
           </div>
         </section>
-
       </div>
-
-
     </div>
-
     <div class="bg-gray-900 text-white">
       <div class="container mx-auto py-8">
         <div class="flex flex-col md:flex-row justify-between">
@@ -225,14 +205,12 @@
             <h2 class="text-2xl font-bold">FiestaInfinity</h2>
             <p class="mt-2 text-sm">Event Organizing Excellence</p>
           </div>
-
           <!-- Middle section of the footer -->
           <div class="mb-4 md:mb-0 mx-4 md:mx-8">
             <h3 class="text-lg font-semibold mb-2">Contact Us</h3>
             <p>Email: info@fiestainfinity.com</p>
             <p>Phone: +1 (555) 123-4567</p>
           </div>
-
           <!-- Right side of the footer -->
           <div class="flex items-center">
             <h3 class="text-lg font-semibold mb-2 mr-4">Follow Us</h3>
@@ -252,7 +230,6 @@
         </div>
         <!-- Horizontal line -->
         <hr class="my-6 border-t border-gray-600">
-
         <!-- Additional content or links can be added here -->
         <p class="mt-6 text-sm opacity-75">© 2024 FiestaInfinity. All rights reserved.</p>
       </div>
