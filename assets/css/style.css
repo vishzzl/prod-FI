@@ -1,0 +1,23 @@
+body {
+    /* Standard property for modern browsers */
+    text-size-adjust: 100%;
+    /* WebKit specific property for older versions */
+}
+
+.navbar {
+    transition: height 1s ease-in;
+}
+
+
+.navbar.scrolled {
+    background-color: #000;
+    height: 60px;
+}
+
+.logo {
+    transition: transform 0.8s;
+}
+
+.navbar.scrolled .logo {
+    transform: scale(0.5);
+}
